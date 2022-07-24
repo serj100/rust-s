@@ -1,4 +1,4 @@
 run:
-	docker run -d -p 5000:5000 --rm --name rust-server
+	docker run -d -p 28015:28015 --rm --name rust-server
 stop:
 	docker stop rust-server
